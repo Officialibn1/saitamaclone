@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="127" height="41" viewBox="0 0 127 41">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#3364f3"/>
+      <stop offset="1" stop-color="#225dfc"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_1137" data-name="Grupo 1137" transform="translate(-6926 -9886)">
+    <rect id="Retângulo_709" data-name="Retângulo 709" width="127" height="41" rx="20.5" transform="translate(6926 9886)" fill="url(#linear-gradient)"/>
+    <text id="FREE_APP" data-name="FREE APP" transform="translate(7035 9913)" fill="#fff" font-size="18" font-family="HelveticaNeue-Bold, Helvetica Neue" font-weight="700" letter-spacing="0.002em"><tspan x="-88" y="0">FREE APP</tspan></text>
+  </g>
+</svg>
