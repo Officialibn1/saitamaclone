@@ -2,6 +2,83 @@
 @tailwind components;
 @tailwind utilities;
 
+body {
+  @apply bg-gray-900 text-gray-200 max-w-screen-2xl mx-auto outline;
+}
+
+main {
+  @apply w-full mt-28;
+}
+
+/* Navbar styles */
+nav {
+  @apply flex items-center gap-3 px-[5vw] py-5 fixed top-0 left-0 w-full;
+}
+
+
+/* Navbar logo styles */
+nav .navLogo {
+  @apply w-28 h-14;
+}
+
+/* Navbar logo svg image styles */
+nav .navLogo img {
+  @apply w-full h-full;
+}
+
+/* Navlinks toggle button styles */
+nav .toggleBtn {
+  @apply text-3xl;
+}
+
+/* Social media icons styles */
+nav .mediaIcons {
+  @apply flex items-center ml-auto text-xl gap-3 md:text-2xl md:gap-5;
+}
+
+/* Navlinks container styles */
+nav .navLinks {
+  @apply fixed top-0 w-full h-[100dvh]  z-10 ease-in-out duration-300;
+  backdrop-filter: blur(10px);
+}
+
+/* Navlinks list styles */
+nav .navLinks ul {
+  @apply w-2/3 max-w-[373px] bg-gray-900 h-full px-10 py-5 flex flex-col gap-5;
+}
+
+nav .navLinks ul li {
+  @apply w-full bg-gray-800 p-3 md:hover:bg-gray-950 text-sm ease-in-out duration-200 flex;
+  border-radius: .5rem ;
+}
+
+nav .navLinks ul li a {
+  @apply w-full;
+}
+
+nav .navLinks ul li:first-child {
+  @apply mb-10 text-3xl w-fit p-3 flex items-center justify-center outline-none;
+  border-radius: .5rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
