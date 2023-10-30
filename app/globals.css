@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 body {
-  @apply bg-gray-900 text-gray-200 max-w-screen-2xl mx-auto outline;
+  @apply bg-gray-900 text-gray-200 max-w-screen-2xl mx-auto;
 }
 
 main {
@@ -34,7 +34,7 @@ nav .toggleBtn {
 
 /* Social media icons container styles */
 nav .mediaIcons {
-  @apply flex items-center ml-auto text-xl gap-3 md:text-2xl md:gap-5 ;
+  @apply flex items-center ml-auto text-xl gap-3 md:text-2xl md:gap-5 relative;
 }
 
 /* social media icon links style */
@@ -44,7 +44,7 @@ nav .mediaIcons a {
 
 /* Navlinks container styles */
 nav .navLinks {
-  @apply fixed top-0 w-full h-[100dvh]  z-10 ease-in-out duration-300;
+  @apply fixed top-0 w-full h-[100dvh] ease-in-out duration-300 z-30;
   backdrop-filter: blur(10px);
 }
 

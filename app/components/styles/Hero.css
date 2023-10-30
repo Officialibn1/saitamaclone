@@ -1,0 +1,26 @@
+.hero {
+    @apply w-full flex p-10 ;
+
+    
+}
+
+/* container with blur effect */
+.heroBlur {
+    @apply w-full h-full rounded-2xl flex py-10;
+    /* border: 1px solid rgb(229 231 235); */
+    box-shadow: 0 0 30px 15px rgba(3, 7, 18, 1);
+}
+
+.heroText {
+    @apply m-auto flex flex-col gap-5;
+}
+
+.heroText h1 {
+    @apply text-center text-4xl md:text-5xl;
+    line-height: 1.4;
+}
+
+.heroText button {
+    @apply bg-gray-800 py-4 px-8 mx-auto mt-10 md:hover:bg-gray-950 duration-200 ease-in-out;
+    border-radius: .5rem;
+}
