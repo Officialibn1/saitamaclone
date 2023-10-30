@@ -28,12 +28,18 @@ nav .navLogo img {
 
 /* Navlinks toggle button styles */
 nav .toggleBtn {
-  @apply text-3xl;
+  @apply text-2xl cursor-pointer bg-gray-800 p-2 md:hover:bg-gray-950 ease-in-out duration-300 md:hover:shadow-xl;
+  border-radius: .5rem;
 }
 
-/* Social media icons styles */
+/* Social media icons container styles */
 nav .mediaIcons {
-  @apply flex items-center ml-auto text-xl gap-3 md:text-2xl md:gap-5;
+  @apply flex items-center ml-auto text-xl gap-3 md:text-2xl md:gap-5 ;
+}
+
+/* social media icon links style */
+nav .mediaIcons a {
+  @apply md:hover:text-gray-400 ease-in-out duration-200;
 }
 
 /* Navlinks container styles */
@@ -48,7 +54,7 @@ nav .navLinks ul {
 }
 
 nav .navLinks ul li {
-  @apply w-full bg-gray-800 p-3 md:hover:bg-gray-950 text-sm ease-in-out duration-200 flex;
+  @apply w-full bg-gray-800 p-3 md:hover:bg-gray-950 md:hover:shadow-xl text-sm ease-in-out duration-200 flex;
   border-radius: .5rem ;
 }
 

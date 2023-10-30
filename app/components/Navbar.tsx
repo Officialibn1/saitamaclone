@@ -48,19 +48,33 @@ const Navbar = () => {
 
         {/* Navbar social media icons container */}
         <div className="mediaIcons">
-            <FaLinkedin />
+            <Link href={'/'}>
+                <FaLinkedin />
+            </Link>
             
-            <FaXTwitter />
+            <Link href={'/'}>
+                <FaXTwitter />
+            </Link>
 
-            <FaFacebook />
+            <Link href={'/'}>
+                <FaFacebook />
+            </Link>
 
-            <FaReddit />
+            <Link href={'/'}>
+                <FaReddit />
+            </Link>
 
-            <FaGithubAlt />
+            <Link href={'/'}>
+                <FaGithubAlt />
+            </Link>
 
-            <FaYoutube />
+            <Link href={'/'}>
+                <FaYoutube />
+            </Link>
 
-            <FaTelegram />
+            <Link href={'/'}>
+                <FaTelegram />
+            </Link>
         </div>
     </nav>
   )
