@@ -1,5 +1,6 @@
 import Hero from "./components/Hero";
 import ImageCards from "./components/ImageCards";
+import Latest from "./components/Latest";
 
 
 export default function Home() {
@@ -8,6 +9,8 @@ export default function Home() {
       <Hero />
 
       <ImageCards />
+
+      <Latest />
 
     </section>
   )

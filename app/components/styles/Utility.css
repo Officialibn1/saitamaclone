@@ -1,0 +1,35 @@
+/* Utility styles */
+/* rgb(78,204,240) */
+/* rgb(124,113,244) */
+
+.sectionHeading {
+    @apply flex w-full items-center gap-5;
+}
+
+.sectionHeading span {
+    @apply w-12 md:w-24 h-1 rounded-xl bg-green-200;
+    background: linear-gradient(to right, rgb(78,204,240), rgb(124,113,244));
+}
+
+.sectionHeading h1 {
+    @apply text-xl md:text-3xl font-thin;
+}
+
+.container {
+    @apply px-[3vw];
+}
+.container2 {
+    @apply px-[5vw] lg:px-0;
+}
+
+/* First type of custom button */
+.button1 {
+    @apply bg-gray-800 py-4 px-8 mx-auto mt-10 md:hover:bg-gray-950 duration-200 ease-in-out;
+    border-radius: .5rem;
+}
+
+/* Second type */
+.button2 {
+    @apply bg-gray-900 py-4 px-8 mx-auto mt-10 md:hover:bg-gray-950 duration-200 ease-in-out;
+    border-radius: .5rem;
+}

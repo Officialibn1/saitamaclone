@@ -1,0 +1,15 @@
+.latest {
+    @apply my-20 bg-gray-800 p-10 rounded-2xl h-[50vh] flex flex-col;
+}
+
+.latestText {
+    @apply flex flex-col gap-3 items-center mt-auto;
+}
+
+.latestText p {
+    @apply text-sm font-thin;
+}
+
+.latestText h1 {
+    @apply bg-gray-900 p-5 rounded-xl text-base md:text-xl lg:text-2xl text-center;
+}

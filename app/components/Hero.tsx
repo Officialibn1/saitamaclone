@@ -12,7 +12,7 @@ const Hero = () => {
                     Tokenized <br />Real Estate <br /> Is Here
                 </h1>
 
-                <button>
+                <button className='button1'>
                     Get Started
                 </button>
             </div>

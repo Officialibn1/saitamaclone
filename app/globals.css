@@ -12,7 +12,7 @@ main {
 
 /* Navbar styles */
 nav {
-  @apply flex items-center gap-3 px-[5vw] py-5 fixed top-0 left-0 w-full;
+  @apply flex items-center gap-3 px-[5vw] py-5 fixed top-0 left-0 w-full bg-gray-900 shadow-2xl;
 }
 
 
@@ -66,6 +66,8 @@ nav .navLinks ul li:first-child {
   @apply mb-10 text-3xl w-fit p-3 flex items-center justify-center outline-none;
   border-radius: .5rem;
 }
+
+
 
 
 

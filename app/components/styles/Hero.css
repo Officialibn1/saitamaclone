@@ -3,7 +3,7 @@
 }
 
 .heroBlur {
-    @apply w-full h-full rounded-2xl flex py-10;
+    @apply w-full h-full rounded-2xl flex py-10 bg-zinc-950;
     box-shadow: 0 0 30px 15px rgba(3, 7, 18, 1);
 }
 
@@ -14,11 +14,6 @@
 .heroText h1 {
     @apply text-center text-4xl md:text-5xl;
     line-height: 1.4;
-}
-
-.heroText button {
-    @apply bg-gray-800 py-4 px-8 mx-auto mt-10 md:hover:bg-gray-950 duration-200 ease-in-out;
-    border-radius: .5rem;
 }
 
 /* Cards Image styles */
