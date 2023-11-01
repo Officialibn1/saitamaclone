@@ -19,7 +19,7 @@
     @apply px-[3vw];
 }
 .container2 {
-    @apply px-[5vw] lg:px-[3vw];
+    @apply px-[5vw] lg:px-[3vw] my-20;
 }
 
 /* First type of custom button */
