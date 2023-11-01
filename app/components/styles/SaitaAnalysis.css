@@ -1,0 +1,87 @@
+.saitaAnalysis {
+    @apply my-20 bg-gray-800 p-10 rounded-2xl flex flex-col;
+}
+
+.analysisCards {
+    @apply flex gap-10 flex-col mt-10 w-full md:flex-row; 
+}
+
+/* dougnut card chart styles */
+.dounutCard {
+    @apply bg-gray-950 p-5 flex rounded-2xl lg:w-[40%];
+}
+
+.dounutCard img {
+    @apply w-full m-auto;
+}
+
+.percentageCards {
+    @apply gap-5 flex flex-col lg:w-[25%];
+}
+
+.percentageCard {
+    @apply w-full xl:h-[33%] flex flex-col; 
+}
+
+.percentageCard > p {
+    @apply text-[11px] xl:text-base font-thin;
+}
+
+.cardPer {
+    @apply bg-gray-950 p-4 rounded-2xl mt-2 flex justify-center ;
+}
+
+
+.cardPer span {
+    @apply flex gap-3 items-center; 
+
+}
+
+.percentageCard > .cardPer {
+    @apply h-[75%] mt-auto;
+}
+
+.cardPer span h2 {
+    @apply text-4xl xl:text-6xl;
+    background: linear-gradient(to right, rgb(78,204,240), rgb(124,113,244));
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent;
+}
+
+/* Percentage cards styles */
+.numberCards {
+    @apply flex flex-col gap-5 lg:w-[35%];
+}
+
+.numberCard {
+    @apply w-full flex-1 md:h-1/2 flex flex-col; 
+}
+
+.numberCard > p {
+    @apply text-[11px] xl:text-base font-thin;
+}
+
+.numberCard > .cardPer {
+    @apply md:h-4/5 items-center mt-auto;
+}
+
+.numberCard > .cardPer span p {
+    @apply text-sm;
+    background: linear-gradient(to right, rgb(78,204,240), rgb(124,113,244));
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent;
+}
+
+
+
+
+
+
+
+
+
+
+
+

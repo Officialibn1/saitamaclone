@@ -1,5 +1,5 @@
 .cryptoMade {
-    @apply flex flex-col gap-10 items-center my-10 md:flex-row max-w-[962.56px] mx-auto md:items-start;
+    @apply flex flex-col gap-10 items-center my-10 md:flex-row max-w-[1024px] mx-auto md:items-start;
 }
 
 .cryptoMadeVideo {
