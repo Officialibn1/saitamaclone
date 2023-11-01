@@ -1,0 +1,31 @@
+.cryptoMade {
+    @apply flex flex-col gap-10 items-center my-10 md:flex-row max-w-[962.56px] mx-auto md:items-start;
+}
+
+.cryptoMade .cryptoMadeVideo {
+    @apply w-full flex min-w-[304px] max-w-[384px] mx-auto;
+    flex: 1;
+}
+
+.cryptoMade .cryptoMadeVideo img {
+    @apply m-auto w-4/5 ;
+}
+
+.cryptoMadeText {
+    /* @apply ; */
+    flex: 2;
+}
+
+.cryptoMadeText p {
+    @apply ml-[66px] mt-10 text-base font-extralight lg:text-xl;
+}
+
+
+
+
+
+
+
+
+
+
