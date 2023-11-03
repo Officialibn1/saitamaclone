@@ -14,6 +14,11 @@ type productCard = {
     imgUrl: string
 }
 
+type buySaitamaCard = {
+    id: string
+    body: string
+}
+
 export const productCards: productCard[] = [
     {
         id: 1,
@@ -57,4 +62,31 @@ export const productCards: productCard[] = [
         body: 'Made for payment— spend up to 50k USD daily at 60 million+ places globally.',
         imgUrl: '/icon-w7.png'
     },
+]
+
+export const buySaitamaCards: buySaitamaCard[] = [
+    {
+        id: '01',
+        body: 'Go to dex.saita.pro or access it through the SaitaPro app by tapping on ‘Swap’.'
+    },
+    {
+        id: '02',
+        body: 'Click on Connect and select MetaMask or Wallet connect depending on the wallet you use. On browsers we recommend using the MetaMask Google Chrome plugin.'
+    },
+    {
+        id: '03',
+        body: 'Make sure you hold a small amount of Ethereum (ETH) in your wallet to pay for the gas fees.'
+    },
+    {
+        id: '04',
+        body: 'Select ETH on the top menu and SAITAMA at the bottom. Enter the amount you want to swap to get the amount received'
+    },
+    {
+        id: '05',
+        body: 'Click on the cogwheel menu and set ‘slippage’ to 9% to make sure the transaction goes through.'
+    },
+    {
+        id: '06',
+        body: 'Click on ‘Swap’ and approve the transaction in your wallet app or plugin.'
+    }
 ]

@@ -1,0 +1,26 @@
+.buySaitama {
+    @apply w-full;
+}
+
+.buySaitamaCards {
+    @apply mt-10 flex flex-col md:flex-row flex-wrap gap-3 py-5 items-center md:justify-center max-w-[962px] xl:max-w-[1024px] mx-auto;
+    border-top: 1px solid rgba(229, 231, 235, 0.3); 
+}
+
+.buySaitamaCard {
+    @apply flex gap-5 items-start py-1 max-w-[332.5px] lg:max-w-[392.5px] h-[100px] xl:h-[120px] lg:h-[85px] xl:mx-5;
+    border-bottom: 1px solid rgba(229, 231, 235, 0.3); 
+}
+
+.buySaitamaCard h1 {
+    @apply text-6xl;
+    font-family: 'Space Mono', monospace;
+    background: linear-gradient(to right, rgb(78,204,240), rgb(124,113,244));
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent;
+}
+
+.buySaitamaCard p {
+    @apply text-[12px] font-light w-[75%] ml-auto xl:text-sm;
+}

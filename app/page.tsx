@@ -1,3 +1,4 @@
+import BuySaitama from "./components/BuySaitama";
 import CryptoMade from "./components/CryptoMade";
 import Hero from "./components/Hero";
 import ImageCards from "./components/ImageCards";
@@ -23,6 +24,8 @@ export default function Home() {
       <SaitaAnalysis />
 
       <Products />
+
+      <BuySaitama />
 
     </section>
   )
