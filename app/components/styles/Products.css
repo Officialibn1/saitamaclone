@@ -1,0 +1,49 @@
+.products {
+    @apply w-full;
+}
+
+.productsCards {
+    @apply items-center w-full flex flex-col md:flex-row flex-wrap md:justify-center gap-5 mt-10 ;
+}
+
+.productCard {
+    @apply bg-gray-800 p-5 rounded-2xl h-96 max-w-[332.5px] lg:max-w-[372.5px] overflow-y-hidden ease-in-out duration-300;
+    @apply hover:bg-purple-600 cursor-pointer;
+}
+
+.productCard:hover .cardTextContainer {
+    @apply mt-5;
+}
+
+.productCard .cardImgContainer {
+    @apply flex justify-end;
+}
+
+.productCard .cardImgContainer img {
+    @apply w-16 h-16;
+}
+
+.productCard .cardTextContainer {
+    @apply mt-[202px] ease-in-out duration-500; 
+}
+
+.productCard .cardTextContainer h2 {
+    @apply text-base;
+    font-family: 'Space Mono', monospace;
+}
+
+.productCard .cardTextContainer h1 {
+    @apply text-2xl mt-5 mb-5;
+}
+
+.productCard .cardTextContainer button {
+    @apply outline w-full py-3 mt-3 rounded-xl;
+}
+
+
+
+
+
+
+
+

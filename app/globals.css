@@ -54,7 +54,7 @@ nav .navLinks {
 
 /* Navlinks list styles */
 nav .navLinks ul {
-  @apply w-2/3 max-w-[373px] bg-gray-900 h-full px-10 py-5 flex flex-col gap-5;
+  @apply w-2/3 max-w-[373px] h-full px-10 py-5 flex flex-col gap-5;
 }
 
 nav .navLinks ul li {

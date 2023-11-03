@@ -47,6 +47,7 @@
     -webkit-background-clip: text; /* For Safari */
     background-clip: text;
     color: transparent;
+    font-family: 'Space Mono', monospace;
 }
 
 /* Percentage cards styles */
