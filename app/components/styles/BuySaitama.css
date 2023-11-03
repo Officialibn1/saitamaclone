@@ -24,3 +24,13 @@
 .buySaitamaCard p {
     @apply text-[12px] font-light w-[75%] ml-auto xl:text-sm;
 }
+
+/* download cards styles */
+.downloadCards {
+    @apply flex w-full gap-5 flex-wrap justify-center mt-10;
+}
+
+/* individual cards */
+.downloadCard {
+    @apply w-44 ;
+}

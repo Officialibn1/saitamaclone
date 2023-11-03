@@ -30,6 +30,6 @@
 
 /* Second type */
 .button2 {
-    @apply bg-gray-900 py-4 px-8 mx-auto mt-10 md:hover:bg-gray-950 duration-200 ease-in-out;
+    @apply bg-[rgb(18,18,18)] py-4 px-8 mx-auto mt-10 md:hover:bg-gray-950 duration-200 ease-in-out;
     border-radius: .5rem;
 }

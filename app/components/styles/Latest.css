@@ -11,5 +11,5 @@
 }
 
 .latestText h1 {
-    @apply bg-gray-900 p-5 rounded-xl text-base md:text-xl lg:text-2xl text-center;
+    @apply bg-[rgb(18,18,18)] p-5 rounded-xl text-base md:text-xl lg:text-2xl text-center;
 }

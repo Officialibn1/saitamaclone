@@ -4,7 +4,7 @@
 
 .heroBlur {
     @apply w-full h-full rounded-2xl flex py-10 bg-zinc-950;
-    box-shadow: 0 0 30px 15px rgba(3, 7, 18, 1);
+    /* box-shadow: 0 0 30px 15px rgba(3, 7, 18, 1); */
 }
 
 .heroText {
@@ -28,8 +28,8 @@
 
 @media (min-width: 768px) {
     .imageCard:hover {
-        @apply duration-200 ease-in-out;
-        box-shadow: 0 0 20px 8px rgba(3, 7, 18, 1);
+        @apply duration-300 ease-in-out;
+        box-shadow: 0 0 20px 5px rgba(78, 205, 240, 0.3);
     } 
 }
 

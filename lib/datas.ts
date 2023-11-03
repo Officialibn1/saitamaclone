@@ -6,6 +6,14 @@ export const cardUrl = [
     'card5.png',
 ]
 
+export const downloadCardUrl = [
+    'logo-icon1.jpg',
+    'logo-icon2.jpg',
+    'logo-icon3.jpg',
+    'logo-icon4.jpg',
+    'logo-icon5.jpg'
+]
+
 type productCard = {
     id: number
     title: string

@@ -1,6 +1,8 @@
 import React from 'react'
 import './styles/BuySaitama.css'
-import { buySaitamaCards } from '@/lib/datas'
+import { buySaitamaCards, downloadCardUrl } from '@/lib/datas'
+import Image from 'next/image'
+import Link from 'next/link'
 
 const BuySaitama = () => {
   return (
@@ -24,6 +26,16 @@ const BuySaitama = () => {
                         <p>
                             {card.body}
                         </p>
+                    </div>
+                ))}
+            </div>
+
+            <div className="downloadCards">
+                {downloadCardUrl.map((url, i) => (
+                    <div key={i} className="downloadCard">
+                        <Link href={''}>
+                            <Image src={`/${url}`} width={300} height={60} quality={100}  alt={`saitama website download ${url}`} />
+                        </Link>
                     </div>
                 ))}
             </div>
