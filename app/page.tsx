@@ -1,5 +1,6 @@
 import BuySaitama from "./components/BuySaitama";
 import CryptoMade from "./components/CryptoMade";
+import CryptoSafe from "./components/CryptoSafe";
 import Hero from "./components/Hero";
 import ImageCards from "./components/ImageCards";
 import Latest from "./components/Latest";
@@ -35,6 +36,8 @@ export default function Home() {
       <Listed />
 
       <OnBoard />
+
+      <CryptoSafe />
 
     </section>
   )
