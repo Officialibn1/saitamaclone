@@ -1,0 +1,52 @@
+.onBoard {
+    @apply w-full py-10;
+}
+
+.onBoardHeading {
+    @apply text-center text-2xl font-semibold;
+}
+
+/* Onboarding input section container */
+.onBoardInputSection {
+    @apply w-full flex flex-col gap-5 py-5;
+}
+
+.onBoardInputContainer {
+    @apply py-3 flex gap-3 justify-center;
+}
+
+/* onboading input styles */
+.onBoardInputContainer input {
+    @apply outline-none bg-gray-800 rounded-xl text-sm py-3 px-3 w-56 md:w-72;
+}
+
+/* onboading button styles */
+.onBoardInputContainer button {
+    @apply text-base px-3 rounded-xl;
+    background: linear-gradient(to right, rgb(78,204,240), rgb(124,113,244));
+}
+
+/* onboading text styles */
+.onBoardInputText {
+    @apply max-w-[691px] mx-auto;
+}
+
+.onBoardInputText p {
+    @apply my-5 font-light text-sm lg:text-base;
+}
+
+.onBoardInputText p span {
+    @apply text-blue-400;
+}
+
+
+
+
+
+
+
+
+
+
+
+
