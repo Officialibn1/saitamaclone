@@ -1,0 +1,105 @@
+.saitaPro {
+    @apply w-full;
+}
+
+.saitaProContent {
+    @apply mt-10 flex flex-col pt-5;
+    /* background: linear-gradient(to bottom, rgba(78, 205, 240, 0.3), rgb(124,113,244, .3)); */
+    background: linear-gradient(
+        to bottom, 
+        /* rgba(0, 0, 0, 0), Transparent black at the top */
+        rgba(0, 0, 0, 0.5), /* Blend of black */
+        rgba(78, 205, 240, 0.3), /* Light blue with 0.3 opacity */
+        rgb(124, 113, 244, 0.3), /* Purple with 0.3 opacity */
+        rgba(0, 0, 0, 0.5) /* Blend of black at the bottom */
+    );
+}
+
+.saitaProContent > button {
+    @apply w-fit px-5 py-3 font-bold rounded-2xl mx-auto ;
+    background: linear-gradient(to right, rgb(78,204,240), rgb(124,113,244));
+}
+
+.saitaProContent > h2 {
+    @apply text-2xl font-extrabold text-center mt-6 mb-2;
+}
+
+.saitaProContent > h1 {
+    @apply text-6xl font-black text-center mb-10;
+    background: linear-gradient(to right, rgb(78,204,240), rgb(124,113,244));
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent;
+}
+
+.saitaProContent > section {
+    @apply text-center text-sm max-w-2xl mx-auto;
+}
+
+.saitaProContent > section span {
+    @apply ml-1 text-blue-400;
+}
+
+/* Saita pro hand image styles */
+.appBgImg {
+    @apply mt-20 h-[70vh] w-full;
+    background-image: url('/hand-img.png');
+    background-position: center;
+    background-size: 80%;
+    background-repeat: no-repeat;
+    
+    @media (min-width: 768px) {
+        background-size: 400px;
+    }
+}
+
+/* The text and buttons below the hand bg image */
+.saitaProDownloadBtns {
+    @apply w-full;
+}
+
+.saitaProDownloadBtns h1 {
+    @apply text-3xl text-center font-bold;
+    background: linear-gradient(to right, rgb(78,204,240), rgb(124,113,244));
+    -webkit-background-clip: text; /* For Safari */
+    background-clip: text;
+    color: transparent;
+}
+
+.saitaProDownloadBtns p {
+    @apply text-sm text-center mb-10;
+}
+
+/* Download image animation */
+.saitaProDownloadAni {
+    @apply h-[180px] flex;
+}
+
+/* Download button animation */
+@keyframes moveUpDown {
+    0%, 100% {
+        @apply mt-5; /* Start and end position */
+    }
+    50% {
+        @apply mt-10; /* Middle position, adjust the value for the desired movement */
+    }
+}
+
+.saitaProDownloadAni img {
+    @apply w-[94px] h-24 mx-auto mt-5;
+    animation: moveUpDown 2s ease infinite; 
+}
+
+/* .\Play store and app store download image */
+.saitaProDownload {
+    @apply flex flex-col gap-8 items-center;
+}
+
+.saitaProDownload > div {
+    @apply w-44;
+}
+
+
+
+
+

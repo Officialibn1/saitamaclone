@@ -8,7 +8,7 @@
 /* rgb(18,18,18) */
 
 body {
-  @apply bg-[rgb(18,18,18)] text-gray-200 max-w-screen-2xl mx-auto;
+  @apply bg-[#000000] text-gray-200 max-w-screen-2xl mx-auto;
   font-family: 'Montserrat', sans-serif;
   /* font-family: 'Space Mono', monospace; */
 }
@@ -19,7 +19,7 @@ main {
 
 /* Navbar styles */
 nav {
-  @apply flex items-center gap-3 px-[5vw] py-5 fixed top-0 left-0 w-full bg-[rgb(18,18,18)] shadow-2xl;
+  @apply flex items-center gap-3 px-[5vw] py-5 fixed top-0 left-0 w-full bg-[#000000] shadow-2xl;
 }
 
 
