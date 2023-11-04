@@ -1,0 +1,32 @@
+.getSupportFormContainer {
+    @apply bg-gray-800 mt-10 p-5 rounded-2xl lg:py-12 lg:h-[400px];
+}
+
+/* Entire Form container div */
+.getSupportFormContainer form {
+    @apply flex flex-col gap-10 lg:flex-row max-w-[922.5px] mx-auto lg:h-full;
+}
+
+/* Name, email & subject container */
+.groupInput {
+    @apply flex flex-col gap-1 lg:w-2/4;
+}
+
+.groupInput label {
+    @apply mt-3 text-sm font-light;
+}
+
+.groupInput input {
+    @apply bg-[#000000] py-2 px-4 rounded-xl;
+}
+
+/* TExtarea contaier */
+.formTextArea {
+    @apply flex flex-col gap-1 w-full lg:w-2/4;
+}
+
+.formTextArea textarea {
+    @apply min-h-[200px] bg-[#000000] rounded-xl py-2 px-4 lg:h-full;
+}
+
+
