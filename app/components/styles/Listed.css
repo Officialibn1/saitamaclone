@@ -1,0 +1,33 @@
+.listed {
+    @apply w-full py-10;
+}
+
+.sectionheader {
+    @apply mb-5 text-xl font-semibold;
+}
+
+/* Listed icons container */
+.listedIconsContainer {
+    @apply bg-gray-800 p-5 rounded-2xl flex flex-wrap gap-5 justify-center xl:px-20 lg:p-10;
+}
+
+/* individual image container styles */
+.listedIconsContainer .listedCard {
+    @apply w-24 lg:w-32 xl:w-44;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

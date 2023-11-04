@@ -98,3 +98,22 @@ export const buySaitamaCards: buySaitamaCard[] = [
         body: 'Click on ‘Swap’ and approve the transaction in your wallet app or plugin.'
     }
 ]
+
+export const listedCards = [
+    '1683717118.png',
+    '1683717383.png',
+    '1683717425.png',
+    '1683717475.png',
+    '1683717545.png',
+    '1683717584.png',
+    '1683717651.png',
+    '1683717695.png',
+    '1683717771.png',
+    '1683717808.png',
+    '1683717826.png',
+    '1683717894.png',
+    '1683717932.png',
+    '1683718340.png',
+    '1683718811.png',
+    '1683718882.png'
+]

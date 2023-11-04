@@ -3,6 +3,7 @@ import CryptoMade from "./components/CryptoMade";
 import Hero from "./components/Hero";
 import ImageCards from "./components/ImageCards";
 import Latest from "./components/Latest";
+import Listed from "./components/Listed";
 import Products from "./components/Products";
 import SaitaAnalysis from "./components/SaitaAnalysis";
 import SaitaPro from "./components/SaitaPro";
@@ -29,6 +30,8 @@ export default function Home() {
       <BuySaitama />
 
       <SaitaPro />
+
+      <Listed />
 
     </section>
   )
