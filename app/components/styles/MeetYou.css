@@ -31,5 +31,7 @@
     @apply w-full text-center text-sm font-light lg:text-base mt-10 max-w-[691.2px] mx-auto;
 }
 
-
+.meetYouContentText a {
+    @apply underline text-blue-400;
+}
 

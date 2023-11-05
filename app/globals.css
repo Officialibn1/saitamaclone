@@ -75,8 +75,75 @@ nav .navLinks ul li:first-child {
 }
 
 
+/* Footer styles */
+footer {
+  @apply  flex flex-col;
+  @apply px-[5vw] lg:px-[3vw] py-10 mt-56;
+}
+
+.footerLogo {
+  @apply  flex justify-center;
+}
+
+.footerLogo img {
+  @apply w-16;
+}
+
+/* links and list styles */
+
+/* general styles */
+footer ul li a {
+  @apply text-sm font-light lg:hover:text-blue-400 duration-300 ease-in-out;
+}
+
+footer h1 {
+  @apply text-xl font-semibold mb-3;
+}
+
+.footerLinks {
+  @apply  flex flex-col gap-10 lg:flex-row lg:justify-between bg-gray-800 p-5;
+}
+
+/* companyLinks styles */
+.companyLinks {
+  /* @apply ; */
+}
+
+/* productsUtilities stylew */
+.productsUtilities > div {
+  @apply  flex gap-8;
+}
 
 
+/* Icons and images in the footer */
+.footerImgIcons {
+  @apply flex flex-col pt-10 gap-5 lg:flex-row lg:justify-between  lg:pt-5;
+}
+
+.footerImgIcons > div {
+  @apply lg:flex-1;
+}
+
+.copyRight {
+  @apply flex flex-col gap-1;
+}
+
+.copyRight p {
+  @apply text-[12px] font-light text-center;
+}
+
+/* logo images in the footer */
+.footerLogos {
+  @apply flex gap-5 items-center justify-center;
+}
+
+.footerLogos > div {
+  @apply h-fit max-w-[181px];
+}
+
+.mediaIcons {
+  @apply flex items-center ml-auto text-xl gap-3 md:text-2xl md:gap-5 justify-center w-full lg:justify-end;
+}
 
 
 
