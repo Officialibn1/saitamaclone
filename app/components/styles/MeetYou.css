@@ -1,0 +1,35 @@
+
+.meetYouContent {
+    @apply mt-10 flex flex-col;
+}
+
+.meetYouContentImg {
+    @apply flex flex-col justify-center mb-5 mt-10 lg:mt-20;
+}
+
+.meetYouContentImg > div {
+    @apply w-44 h-44 mx-auto;
+}
+
+.meetYouContentImg > section {
+    @apply w-44 mx-auto;
+}
+
+.meetYouContentImg > section h1 {
+    @apply text-xl mt-1 font-semibold;
+}
+
+.meetYouContentImg > section p {
+    @apply text-sm font-light mt-2;
+}
+
+.meetYouContentImg > section p a {
+    @apply flex items-center gap-2 md:hover:text-blue-400 duration-200;
+}
+
+.meetYouContentText {
+    @apply w-full text-center text-sm font-light lg:text-base mt-10 max-w-[691.2px] mx-auto;
+}
+
+
+

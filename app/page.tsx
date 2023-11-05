@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import ImageCards from "./components/ImageCards";
 import Latest from "./components/Latest";
 import Listed from "./components/Listed";
+import MeetYou from "./components/MeetYou";
 import OnBoard from "./components/OnBoard";
 import Products from "./components/Products";
 import SaitaAnalysis from "./components/SaitaAnalysis";
@@ -41,6 +42,8 @@ export default function Home() {
       <CryptoSafe />
 
       <GetSupport />
+
+      <MeetYou />
 
     </section>
   )

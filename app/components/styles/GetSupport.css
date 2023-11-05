@@ -4,7 +4,7 @@
 
 /* Entire Form container div */
 .getSupportFormContainer form {
-    @apply flex flex-col gap-10 lg:flex-row max-w-[922.5px] mx-auto lg:h-full;
+    @apply flex flex-col gap-10 lg:flex-row max-w-[1224px] mx-auto lg:h-full;
 }
 
 /* Name, email & subject container */
@@ -16,8 +16,12 @@
     @apply mt-3 text-sm font-light;
 }
 
+.groupInput label:first-child {
+    @apply mt-0;
+}
+
 .groupInput input {
-    @apply bg-[#000000] py-2 px-4 rounded-xl;
+    @apply bg-[#000000] py-2 px-4 rounded-xl outline-none;
 }
 
 /* TExtarea contaier */
@@ -25,8 +29,12 @@
     @apply flex flex-col gap-1 w-full lg:w-2/4;
 }
 
+.formTextArea label {
+    @apply text-sm font-light;
+}
+
 .formTextArea textarea {
-    @apply min-h-[200px] bg-[#000000] rounded-xl py-2 px-4 lg:h-full;
+    @apply min-h-[200px] bg-[#000000] rounded-xl p-4 lg:h-full outline-none;
 }
 
 
