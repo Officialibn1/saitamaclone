@@ -1,9 +1,9 @@
 .latest {
-    @apply my-20 bg-gray-800 p-10 rounded-2xl h-[50vh] flex flex-col;
+    @apply my-20 bg-gray-800 p-10 rounded-2xl flex flex-col;
 }
 
 .latestText {
-    @apply flex flex-col gap-3 items-center mt-auto;
+    @apply flex flex-col gap-3 items-center mt-16;
 }
 
 .latestText p {
